@@ -1,15 +1,5 @@
 # PRISM-VUE-DOC
 
-<p align="center">
-  <a href="https://github.com/wlx200510/prism-vue-doc">
-    <img src="./static/icon.png" width="152">
-  </a>
-  <h3 align="center">PRISM-VUE-DOC</h3>
-  <p align="center">
-    A Beautiful md generator you should know<br>
-  </p>
-</p>
-
 > 用于可以写Vue Demo的 markdown 环境，inspired by [You-need-to-know-css](https://lhammer.cn/You-need-to-know-css/#/zh-cn/)
 
 ## 相关依赖
@@ -33,13 +23,7 @@
 3. 引入了搜索插件，方便作为知识库来使用
 4. 拥有评论能力，方便留言交流。
 
-## 项目启动
 
-- clone此仓库到本地。
-- `npm install docsify -g`全局安装
-- 在此项目下执行`docsify serve`
-- 打开 `http://localhost:3000` 即可看到效果
-- 此时可以在项目下自己增加md文件，本地即可看到修改效果
 
 ## license
 
