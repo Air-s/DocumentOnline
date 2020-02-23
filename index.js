@@ -15,7 +15,7 @@ gitalkConfig = {
 };
 window.$docsify = {
   name: "prism-vue-doc",
-  repo: "https://github.com/wlx200510/prism-vue-doc",
+  //repo: "https://github.com/wlx200510/prism-vue-doc",
   auto2top: true,
   loadNavbar: true,
   loadSidebar: true,
@@ -38,10 +38,9 @@ window.$docsify = {
     function(hook, vm) {
       hook.beforeEach(function(html) {
         var url =
-          "https://github.com/wlx200510/prism-vue-doc/blob/master/" +
-          vm.route.file;
-        var editHtml = "[📝 EDIT DOCUMENT](" + url + ")\n";
-
+          "https://github.com/wlx200510/prism-vue-doc/blob/master/" +  vm.route.file;
+        // var editHtml = "[📝 EDIT DOCUMENT](" + url + ")\n";
+        var editHtml = "";
         return editHtml + html;
       });
 
